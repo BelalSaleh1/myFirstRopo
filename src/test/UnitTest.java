@@ -2,10 +2,10 @@ package test;
 
 public class UnitTest {
 public static void main(String[] args) {
-	int a =15 ;
-	int b = 10 ;
-	int c = a+b;
 	
-	System.err.println(c);
+	System.out.println(testOne(10, 5));
 }
+ public static int testOne(int a ,  int b) {
+	 return a-b;
+ }
 }
